@@ -16,6 +16,7 @@ Data should be supplied as a UTF-8 Tab Seperated File called attendance.tsv
 * [EVENT_MANDATORY](#event_mandatory) [0..1]
 * [EVENT_ATTENDED](#event_attended) [1]
 * [ATTENDANCE_LATE](#attendance_late) [0..1]
+* [ATTENDANCE_CATEGORY](#attendance_category) [0..1]
 * [TIMESTAMP](#timestamp) [1]
 * [EVENT_LOGGED_END](#event_logged_end) [0..1]
 
@@ -275,8 +276,22 @@ Jisc
 ### Valid Values
 0 - NOT LATE
 1 - LATE (ANY)
-2- LATE with permission  
-3 + Insitutions own codes
+
+## ATTENDANCE_CATEGORY
+### Description
+
+Attendance_category can be used to express additional detail, for example whether lateness was extreme or condoned, or to provide the source system attendance type code (as might be recorded in a conventional paper register).
+
+### Purpose
+
+Analytics
+
+### Derivation
+Jisc
+
+### Valid Values
+0 - NOT LATE
+1 - LATE (ANY)
 
 ### Format
 INTEGER
