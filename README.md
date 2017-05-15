@@ -17,9 +17,10 @@ If the need arises, particular versions will get their own branches, but until t
 
 # Translations
 
-| Name | xAPI Recipe| Input TSV definitions |  Template
-| ---- | ---- | ---- | ------ | ------ |
-| Attendance | [Attended Learning Event](https://github.com/jiscdev/xapi/blob/1.0/recipes/attendance/attendance.md) | [attendance-input.md](attendance-input.md) | [attendance-template.json](attendance-template.json)                                                            
+| Name        | xAPI           | Input TSV definitions   |  |
+| ------------- |:-------------:| -----:|----|
+| Attendance     | [Attended Learning Event](https://github.com/jiscdev/xapi/blob/1.0/recipes/attendance/attendance.md)  |  [attendance-input.md](attendance-input.md) |  [attendance-template.json](attendance-template.json) |
+                                                          
 
 
 
