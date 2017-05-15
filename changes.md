@@ -1,0 +1,24 @@
+#Template Changes
+
+
+##  Templates
+
+
+### Attendance
+
+15-May-2017  
+
+EVENT_LATE Changed to ATTENDANCE_LATE
+EVENT_TYPE Changed to EVENT_TYPE_DESCRIPTION
+EVENT_START Changed to START_TIME
+EVENT_END Changed to END_TIME
+ATTENDANCE_CATEGORY added
+
+1-Feb-2017  
+ACTIVITY_LOGGED_START_DATE_TIME changed to TIMESTAMP
+START_DATE_TIME changed tgo EVENT_START
+END_DATE_TIME changed tgo EVENT_END
+STUDENT_ACTIVITY_SEQ_ID removed
+
+
+
