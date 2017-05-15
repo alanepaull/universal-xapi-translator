@@ -15,7 +15,7 @@ Data should be supplied as a UTF-8 Tab Seperated File called attendance.tsv
 * [EVENT_END](#event_end) [0..1]
 * [EVENT_MANDATORY](#event_mandatory) [0..1]
 * [EVENT_ATTENDED](#event_attended) [1]
-* [EVENT_LATE](#event_late) [0..1]
+* [ATTENDANCE_LATE](#attendance_late) [0..1]
 * [TIMESTAMP](#timestamp) [1]
 * [EVENT_LOGGED_END](#event_logged_end) [0..1]
 
@@ -260,7 +260,7 @@ INTEGER
 
 ### Notes
 
-## EVENT_LATE 
+## ATTENDANCE_LATE 
 ### Description
 
 Optional flat to confirm if this activity has been attended late or not
@@ -275,7 +275,8 @@ Jisc
 ### Valid Values
 0 - NOT LATE
 1 - LATE (ANY)
-2- LATE with permission
+2- LATE with permission  
+3 + Insitutions own codes
 
 ### Format
 INTEGER
