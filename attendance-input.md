@@ -7,12 +7,12 @@ Data should be supplied as a UTF-8 Tab Seperated File called attendance.tsv
 * [STUDENT_ID](#student_id) [1]
 * [STAFF_ID](#staff_id) [0..1]
 * [EVENT_TYPE_ID](#event_type_id) [1]
-* [EVENT_TYPE](#event_type) [0..1]
+* [EVENT_TYPE_DESCRIPTION](#event_type_description) [0..1]
 * [EVENT_DESCRIPTION](#event_description) [0..1]
 * [EVENT_MAX_COUNT](#event_max_count) [0..1]
 * [MOD_INSTANCE_ID](#mod_instance_id) [1]
-* [EVENT_START](#event_start) [1]
-* [EVENT_END](#event_end) [0..1]
+* [START_TIME](#start_time) [1]
+* [END_TIME](end_time) [0..1]
 * [EVENT_MANDATORY](#event_mandatory) [0..1]
 * [EVENT_ATTENDED](#event_attended) [1]
 * [ATTENDANCE_LATE](#attendance_late) [0..1]
@@ -100,7 +100,7 @@ String (255)
 
 ### Notes
 
-## EVENT_TYPE
+## EVENT_TYPE_DESCRIPTION
 ### Description
 
 The name/ description of the actitivity type eg. LECTURE, TUTORIAL etc.
