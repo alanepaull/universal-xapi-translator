@@ -17,9 +17,9 @@ If the need arises, particular versions will get their own branches, but until t
 
 # Translations
 
-<table>
-<tr><td>Name </td> <td>xAPI Recipe </td><td>Input TSV definitions</td>    <td>Template</td> </tr>
-<tr><td>Attendance</td><td> [Attended Learning Event](https://github.com/jiscdev/xapi/blob/1.0/recipes/attendance/attendance.md)</td> <td> [attendance-input.md](attendance-input.md)</td> <td>[attendance-template.json](attendance-template.json) </td> </tr>                                                             
-</table>
+| Name | xAPI Recipe| Input TSV definitions |  Template
+| ---- | ---- | ---- | ------ | ------ |
+| Attendance | [Attended Learning Event](https://github.com/jiscdev/xapi/blob/1.0/recipes/attendance/attendance.md) | [attendance-input.md](attendance-input.md) | [attendance-template.json](attendance-template.json)                                                            
+
 
 
