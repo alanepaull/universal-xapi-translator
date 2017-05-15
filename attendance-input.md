@@ -5,7 +5,7 @@ Data should be supplied as a UTF-8 Tab Seperated File called attendance.tsv
 # attendance
 * [EVENT_ID](#event_id) [1]
 * [EVENT_NAME](#event_name) [1]
-* [EVENT_DESCRIPTION](#event_description) [0..1]
+* [EVENT_DESCRIPTION](#event_description) [1]
 * [STUDENT_ID](#student_id) [1]
 * [STAFF_ID](#staff_id) [0..1]
 * [EVENT_TYPE_ID](#event_type_id) [1]
