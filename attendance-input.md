@@ -59,4 +59,283 @@ String (255)
 
 ### Notes
 
+## STAFF_ID 
+### Description
+
+The institutions identifier for the staff
+
+### Purpose
+
+To link the staff to the UDD
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+String (255)
+
+### Notes
+
+## EVENT_TYPE_ID 
+### Description
+
+The institution's unique ID number for the activity type eg. 1 = LECTURE, 2 = TUTORIAL etc
+
+### Purpose
+
+Analytics
+
+### Derivation
+Insitution
+
+### Valid Values
+Any
+
+### Format
+String (255)
+
+### Notes
+
+## EVENT_TYPE
+### Description
+
+The name/ description of the actitivity type eg. LECTURE, TUTORIAL etc.
+
+### Purpose
+
+Display
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+String (255)
+
+### Notes
+
+## EVENT_DESCRIPTION
+### Description
+
+Longer desciption of the event 'eg Lecture on XXX'
+
+### Purpose
+Display
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+String (255)
+
+### Notes
+
+## EVENT_MAX_COUNT
+### Description
+
+Number of students who could attend this event
+
+### Purpose
+
+Analytics
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+Integer
+
+### Notes
+
+## MOD_INSTANCE_ID
+### Description
+
+The module instance id this activity instance belongs/ refers to
+
+### Purpose
+
+To link the event to the module on the UDD
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+String (255)
+
+### Notes
+
+## EVENT_START 
+### Description
+
+The prescribed start date and time for this activity instance (as per the timetable provision)
+
+### Purpose
+
+To link the student to the UDD
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+ISO Date (eg 2015-05-24T09:00:00)
+
+### Notes
+
+## EVENT_END 
+### Description
+
+The prescribed end date and time for this activity instance (as per the timetable provision)
+
+### Purpose
+
+To link the student to the UDD
+
+### Derivation
+Jisc
+
+### Valid Values
+ISO Date (eg 2015-05-24T09:00:00)
+
+### Format
+ISO Date (eg 2015-05-24T09:00:00)
+
+### Notes
+
+## EVENT_MANDATORY 
+### Description
+
+Should this be counted in the attendance monitoring (mandatory or not attendance)
+
+### Purpose
+
+Analytics
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+String (255)
+
+### Notes
+
+## EVENT_ATTENDED
+### Description
+
+The institutions identifier for the student
+
+### Purpose
+
+Confirmation if this activity attendance has been attended, or not
+
+### Derivation
+Jisc
+
+### Valid Values
+1   YES
+2   NO
+3   UNKNOWN
+
+### Format
+INTEGER
+
+### Notes
+
+## EVENT_LATE 
+### Description
+
+Optional flat to confirm if this activity has been attended late or not
+
+### Purpose
+
+Analytics
+
+### Derivation
+Jisc
+
+### Valid Values
+0 - NOT LATE
+1 - LATE (ANY)
+2- LATE with permission
+
+### Format
+INTEGER
+
+### Notes
+
+## TIMESTAMP 
+### Description
+
+Time attendance was captured.
+
+### Purpose
+
+ANALYTICS
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+ISO Date (eg 2015-05-24T09:00:00)
+
+### Notes
+
+## EVENT_LOGGED_END 
+### Description
+
+Optional end date and time for when the attendance was confirmed (captured)
+
+### Purpose
+
+To link the student to the UDD
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+ISO Date (eg 2015-05-24T09:00:00)
+
+### Notes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
