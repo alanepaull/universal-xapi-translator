@@ -4,11 +4,13 @@ Data should be supplied as a UTF-8 Tab Seperated File called attendance.tsv
 
 # attendance
 * [EVENT_ID](#event_id) [1]
+* [EVENT_NAME](#event_name) [1]
+* [EVENT_DESCRIPTION](#event_description) [0..1]
 * [STUDENT_ID](#student_id) [1]
 * [STAFF_ID](#staff_id) [0..1]
 * [EVENT_TYPE_ID](#event_type_id) [1]
 * [EVENT_TYPE_DESCRIPTION](#event_type_description) [0..1]
-* [EVENT_DESCRIPTION](#event_description) [0..1]
+
 * [EVENT_MAX_COUNT](#event_max_count) [0..1]
 * [MOD_INSTANCE_ID](#mod_instance_id) [1]
 * [START_TIME](#start_time) [1]
@@ -39,6 +41,46 @@ Any
 String (255)
 
 ### Notes
+
+## EVENT_NAME 
+### Description
+
+A name name for that event
+
+### Purpose
+
+For display purposes
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+String (255)
+
+### Notes
+
+## EVENT_DESCRIPTION
+### Description
+
+Longer desciption of the event 'eg Lecture on XXX'
+
+### Purpose
+Display
+
+### Derivation
+Jisc
+
+### Valid Values
+Any
+
+### Format
+String (255)
+
+### Notes
+
 
 ## STUDENT_ID 
 ### Description
@@ -120,24 +162,6 @@ String (255)
 
 ### Notes
 
-## EVENT_DESCRIPTION
-### Description
-
-Longer desciption of the event 'eg Lecture on XXX'
-
-### Purpose
-Display
-
-### Derivation
-Jisc
-
-### Valid Values
-Any
-
-### Format
-String (255)
-
-### Notes
 
 ## EVENT_MAX_COUNT
 ### Description
