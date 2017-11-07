@@ -4,19 +4,19 @@ Data should be supplied as a UTF-8 Tab Seperated File called attendance.tsv
 
 # library-borrowed
 
-* [USER_ID] (#event_id) [1]
-* [ITEM_ID] (#item_id) [1]
-* [ITEM_TYPE] (#item_id) [1]
-* [ITEM_NAME"] (#item_id) [1]
-* [OCLC_NUMBER] (#item_id) [1]
-* [CALL_NUMBER] (#item_id) [1]
-* [BRANCH_NAME] (#item_id) [1]
-* [PERMANENT_SHELVING_LOCATION] (#item_id) [1]
-* [TEMPORARY_SHELVING_LOCATION] (#item_id) [1]
-* [BORROWER_CAT] (#item_id) [1]
-* [LOAN_POLICY] (#item_id) [1]
-* [BRANCH] (#item_id) [1]
-* [RENEWAL_COUNT] (#item_id) [1]
+* [USER_ID](#event_id) [1]
+* [ITEM_ID](#item_id) [1]
+* [ITEM_TYPE](#item_id) [1]
+* [ITEM_NAME](#item_id) [1]
+* [OCLC_NUMBER](#item_id) [1]
+* [CALL_NUMBER](#item_id) [1]
+* [BRANCH_NAME](#item_id) [1]
+* [PERMANENT_SHELVING_LOCATION](#item_id) [1]
+* [TEMPORARY_SHELVING_LOCATION](#item_id) [1]
+* [BORROWER_CAT](#item_id) [1]
+* [LOAN_POLICY](#item_id) [1]
+* [BRANCH](#item_id) [1]
+* [RENEWAL_COUNT](#item_id) [1]
 
 
 ## USER_ID 
