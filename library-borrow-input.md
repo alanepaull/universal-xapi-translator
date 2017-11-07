@@ -40,11 +40,11 @@ String (255)
 ## ITEM_ID 
 ### Description
 
-A unique identifier for that user
+A unique identifier for that item
 
 ### Purpose
 
-Analytics - to identify that user
+Analytics - to identify that item
 
 ### Derivation
 Jisc
@@ -60,11 +60,11 @@ String (255)
 ## ITEM_TYPE
 ### Description
 
-A unique identifier for that user
+tbc
 
 ### Purpose
 
-Analytics - to identify that user
+tvc
 
 ### Derivation
 Jisc
@@ -99,11 +99,11 @@ String (255)
 ## OCLC_NUMBER
 ### Description
 
-A unique identifier for that user
+tbc
 
 ### Purpose
 
-Analytics - to identify that user
+tbc
 
 ### Derivation
 Jisc
@@ -119,11 +119,11 @@ String (255)
 ## BRANCH_NAME
 ### Description
 
-A unique identifier for that user
+tbc
 
 ### Purpose
 
-Analytics - to identify that user
+tbc
 
 ### Derivation
 Jisc
@@ -138,11 +138,11 @@ String (255)
 ## PERMANENT_SHELVING_LOCATION
 ### Description
 
-A unique identifier for that user
+tbc
 
 ### Purpose
 
-Analytics - to identify that user
+tbc
 
 ### Derivation
 Jisc
@@ -157,11 +157,11 @@ String (255)
 ## TEMPORARY_SHELVING_LOCATION
 ### Description
 
-A unique identifier for that user
+tbc
 
 ### Purpose
 
-Analytics - to identify that user
+tbc
 
 ### Derivation
 Jisc
@@ -175,11 +175,11 @@ String (255)
 ## BORROWER_CAT
 ### Description
 
-A unique identifier for that user
+tbc
 
 ### Purpose
 
-Analytics - to identify that user
+tbc
 
 ### Derivation
 Jisc
@@ -193,11 +193,11 @@ String (255)
 ## LOAN_POLICY
 ### Description
 
-A unique identifier for that user
+tbc
 
 ### Purpose
 
-Analytics - to identify that user
+tbc
 
 ### Derivation
 Jisc
@@ -211,11 +211,11 @@ String (255)
 ## BRANCH
 ### Description
 
-A unique identifier for that user
+A unique identifier for that brancg
 
 ### Purpose
 
-Analytics - to identify that user
+Analytics - to identify that branch
 
 ### Derivation
 Jisc
@@ -229,11 +229,11 @@ String (255)
 ## RENEWAL_COUNT
 ### Description
 
-A unique identifier for that user
+tbc
 
 ### Purpose
 
-Analytics - to identify that user
+tbc
 
 ### Derivation
 Jisc
@@ -242,7 +242,7 @@ Jisc
 Any
 
 ### Format
-String (255)
+integer
 
 
 
